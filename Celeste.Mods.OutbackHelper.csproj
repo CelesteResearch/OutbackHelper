@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>Celeste.Mods.OutbackHelper</AssemblyName>
+        <RootNamespace>Celeste.Mods.OutbackHelper</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference
+            Include="$(SharedRoot)/src/Celeste.Game.Runtime/Celeste.Game.Runtime.csproj"
+            Private="false"
+        />
+        <PackageReference Include="MonoMod.RuntimeDetour" Version="25.3.6" />
+    </ItemGroup>
+</Project>
